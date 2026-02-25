@@ -11,4 +11,5 @@ Natural Language Processing Coursework - Imperial College London Computing, Feb 
 * Run this command in your terminal: `git clone https://github.com/RhianGit/NaturalLanguageProcessing` or download this repo and upload it to Google Colab - use a GPU runtime for faster results.
 * To train the model, run the file `/BestModel/train.py`.
 * For global or local evaluation, run the files `/src/global_evaluation.py` or `/src/local_evaluation.py` respectively.
+* Running `/src/global_evaluation.py` will generate `dev.txt` and `test.txt`.
 * To check my exploratory data analysis results, run the file `/src/exploratory_data_analysis.py`.
