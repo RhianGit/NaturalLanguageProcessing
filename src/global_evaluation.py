@@ -112,7 +112,7 @@ print("Best Dev F1:", best_f1)
 dev_preds = (dev_probs >= best_threshold).astype(int)
 test_preds = (test_probs >= best_threshold).astype(int)
 
-np.savetxt("dev.txt", dev_preds, fmt="%d")
-np.savetxt("test.txt", test_preds, fmt="%d")
+np.savetxt("predictions/dev.txt", dev_preds, fmt="%d")
+np.savetxt("predictions/test.txt", test_preds, fmt="%d")
 
 print("Saved dev.txt and test.txt")
